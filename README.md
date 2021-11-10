@@ -13,13 +13,14 @@ PyFarsi Telegram Bot Compiler, Used Rextester.com api.
 If you want to contribute to this project, read [Contributing Guide](CONTRIBUTING.md).
 
 ### How to run bot?
-- Using virtualenv:
 1. First clone project `git clone https://github.com/PyFarsi/PyCompiler.git`
-2. Create python virtual enviroment `python3 -m venv .env`
-3. Install Python library `pip install -r requirements.txt`
-4. Set your token into *settings.json*
-5. Run bot `python3 bot.py`
-- Using docker:
-1. Install docker-compose
 2. Set your token into *settings.json*
-3. Run `docker-compose up`
+- Using virtualenv:
+1. Create python virtual enviroment `python3 -m venv .env`
+2. Install Python library `pip install -r requirements.txt`
+
+3. Run bot `python3 bot.py`
+- Using docker:
+
+1. Install docker-compose
+2. Run `docker-compose up`
